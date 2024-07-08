@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mljac!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="./materijali/css/stilovi.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./materijali/slike/mini.ico" />
+</head>
+  <body>
+    <body data-bs-spy="scroll" data-bs-target=".navbar"></body>
+    <!-- Navigacijska traka -->
+
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logovrh" src="./materijali/slike/logo_crno.png" alt="">
+            
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#pocetna">Početna stranica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#onama">O nama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#meni">Jelovnik</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#usluge">Usluge</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kuhari">Kuhari</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rezervacija">Rezervacija</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HERO-->
+      <div id="pocetna" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item text-center pozadina vh-100 active slajd-1">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">DOBRODOŠLI</h6>
+                        <h1 class="display-1 fw-semibold text-white">Ukusi koji stvaraju uspomene</h1>
+                        <a href="#rezervacija" class="btn btn-brand">Rezerviraj stol</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center pozadina vh-100 slajd-2">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">DOBRODOŠLI</h6>
+                        <h1 class="display-1 fw-semibold text-white">Kod nas svaki obrok postaje iskustvo</h1>
+                        <a href="#rezervacija" class="btn btn-brand">Rezerviraj stol</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#pocetna" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#pocetna" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- O nama-->
+
+      <section id="onama">
+        <div class="container">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-5">
+              <img src="./materijali/slike/onama1.png" alt="">
+            </div>
+            <div class="col-lg-5">
+              <h1>O nama</h1>
+              <div class="crtica my-4"></div>
+              <p>Dobrodošli u Mljac! <br> Mjesto gdje se susreću tradicija, strast i izvrsnost u kulinarstvu. Naš restoran nudi jedinstven doživljaj objedovanja u kojem se spajaju autentični okusi, vrhunska usluga i ugodna atmosfera.</p>
+              <p>Naše radno vrijeme: <br>
+                Pon - Čet: 09-22h <br>
+                Pet - Ned: 08-24h <br>
+                Blagdani: 08-24h
+              </p>
+              <a href="#meni" class="btn btn-brand">Jelovnik</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Jelovnik -->
+
+      <section id="meni" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 uvodni-tekst">
+              <h1>Istražite naš jelovnik</h1>
+              <p>Naš jelovnik predstavlja spoj tradicionalnih okusa i modernih kulinarskih trendova. U restoranu Mljac!, vjerujemo da je hrana središte svakog dobrog druženja.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+            
+              <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-svajela-tab" data-bs-toggle="pill" data-bs-target="#pills-svajela" 
+                type="button" role="tab" aria-controls="pills-svajela" aria-selected="true">Sva jela</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+              <button class="nav-link " id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza" 
+                type="button" role="tab" aria-controls="pills-pizza" aria-selected="true">Pizza</button>
+              </li>
+              <li class="nav-item" role="presentation">
+              <button class="nav-link " id="pills-meso-tab" data-bs-toggle="pill" data-bs-target="#pills-meso" 
+                type="button" role="tab" aria-controls="pills-meso" aria-selected="true">Meso</button>
+              </li>
+              <li class="nav-item" role="presentation">
+              <button class="nav-link " id="pills-tjestenina-tab" data-bs-toggle="pill" data-bs-target="#pills-tjestenina" 
+                type="button" role="tab" aria-controls="pills-tjestenina" aria-selected="true">Tjestenina</button>
+              </li>
+              </ul>
+
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-svajela" role="tabpanel" aria-labelledby="pills-svajela-tab" tabindex="0">
+              <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela1.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Odrezak s povrćem</a></h5>
+                        <p class="small">Savršeni spoj sočnog mesa i pažljivo odabranih svježih, sezonskih povrtnica.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela2.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Tjestenina Carbonara</a></h5>
+                        <p class="small">Naša Tjestenina Carbonara je autentično talijansko jelo koje spaja kremastu umak od jaja.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela3.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pizza Funghi</a></h5>
+                        <p class="small">Ručno rađena pizza kora premazana je bogatim umakom od rajčice i posuta svježim mozzarellom.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela4.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Hamburger s pomfritom</a></h5>
+                        <p class="small">Naš Hamburger s pomfritom je klasičan favorit s modernim dodirom.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela5.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Veganska salata</a></h5>
+                        <p class="small">Naša Veganska salata je eksplozija boja i okusa, napravljena od najkvalitetnijih svježih sastojaka.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela6.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pileća krilca</a></h5>
+                        <p class="small">Naša Pileća krilca su savršeno začinjena i pečena do zlatno smeđe boje.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela7.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pizza Vegetariana</a></h5>
+                        <p class="small">Pizza Vegetariana je savršen izbor za ljubitelje povrća. Ručno rađena kora, bogati umak od rajčice i mozzarella.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela8.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Tjestenina sa rajčicom</a></h5>
+                        <p class="small">Naša Tjestenina sa rajčicom je jednostavno, ali neodoljivo jelo od zrelih rajčica.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-pane fade show" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab" tabindex="0">
+              <div class="row gy-4 d-flex">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/pizza1.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pizza Kulen</a></h5>
+                        <p class="small">Pizza Kulen je prava poslastica za ljubitelje začinjenog okusa. Pečena do zlatne savršenosti, ova pizza nudi savršen spoj sočnih, začinjenih okusa.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/pizza2.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pizza Napolitana</a></h5>
+                        <p class="small">Pizza Napolitana je klasik koji nikada ne izlazi iz mode. Ova tradicionalna pizza izrađena je od ručno rađene kore premazane bogatim umakom od rajčice.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/pizza3.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pizza s Jajima</a></h5>
+                        <p class="small">Pizza s Jajima je inovativan twist na klasičnu pizzu koji nudi izvanredan okus i teksturu. Savršena kombinacija bogatih, slojevitih okusa i hrskave kore.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/pizza4.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pizza Capricciosa</a></h5>
+                        <p class="small">Pizza Capricciosa je pravi izbor za ljubitelje bogatih i slojevitih okusa. Capricciosa nudi raznolikost tekstura i intenzivnih okusa.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="tab-pane fade show" id="pills-meso" role="tabpanel" aria-labelledby="pills-meso-tab" tabindex="0">
+              <div class="row gy-4 d-flex">
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/meso1.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Piletina s rajčicama</a></h5>
+                        <p class="small">Sočne pileće filete pripremamo s mediteranskim začinima, te ih kuhamo na laganoj vatri zajedno s svježim rajčicama.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/meso2.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Čevapi</a></h5>
+                        <p class="small">Naši Čevapi su pravi hit za ljubitelje roštilja i tradicionalne kuhinje. Mješavina mljevenog mesa, začinjena specijalnom kombinacijom začina.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/meso3.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Junetina s povrćem</a></h5>
+                        <p class="small">Sočno govedsko meso, polako kuhamo s raznovrsnim povrćem poput mrkve, krumpira, celera i paprike, u aromatičnom umaku. Pravo jelo za ljubitelje bogatih okusa.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/svajela6.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Pileća krilca</a></h5>
+                        <p class="small">Naša Pileća krilca su savršeno začinjena i pečena do zlatno smeđe boje, pružajući neodoljivu kombinaciju hrskave kože i sočnog mesa.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="tab-pane fade show" id="pills-tjestenina" role="tabpanel" aria-labelledby="pills-tjestenina-tab" tabindex="0">
+              <div class="row gy-4 d-flex">
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/tjestenina1.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Tjestenina Carbonara</a></h5>
+                        <p class="small">Naša tjestenina Carbonara je autentično talijansko jelo koje spaja kremastu umak od jaja, parmezana i hrskave pancete.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/tjestenina2.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Špageti Bolognese</a></h5>
+                        <p class="small">Naši špageti Bolognese donose autentičan okus talijanske kuhinje pravo na vaš tanjur. Svježe pripremljeni špageti preliveni su bogatim umakom.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/tjestenina3.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Tortilje s piletinom</a></h5>
+                        <p class="small">Meke tortilje punimo sočnim trakama pilećih prsa mariniranih u aromatičnim začinima, uz dodatak svježe salate i rajčica.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 d-flex">
+                  <div class="meni-slika bg-white sjena-hover">
+                    <img src="./materijali/slike/tjestenina4.jpg" alt="">
+                    <div class="meni-slika-sadrzaj p-4">
+                      <div>
+                        <span>Ocjena(4,5)</span>
+                        <span class="ocjena">
+                          <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        </span>
+                        </div>
+                        <h5 class="mt-1 mb-2" ><a href="">Tjestenina salata</a></h5>
+                        <p class="small">Svježe kuhana tjestenina pomiješana je s raznovrsnim povrćem poput cherry rajčica, krastavaca, paprike i crvenog luka.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </section>
+
+      <!-- Usluge -->
+
+      <section id="usluge" class="pozadina">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 uvodni-tekst">
+              <h1 class="text-white">Zašto odabrati upravo nas?</h1>
+              <p class="text-white">Naš restoran ponosno nudi izvanrednu kombinaciju ukusne hrane, vrhunske usluge i ugodnog ambijenta. Međutim to nije sve! Istražite naše ostale usluge.</p>
+            </div>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="usluga p-4 text-center">
+                <div class="usluga-ikona">
+                  <i class="ri-truck-fill"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">Dostava hrane</h4>
+                <p class="text-white">Uživajte u vrhunskim jelima našeg restorana iz udobnosti vašeg doma ili ureda.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="usluga p-4 text-center">
+                <div class="usluga-ikona">
+                  <i class="ri-wifi-fill"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">Besplatan WiFi</h4>
+                <p class="text-white">Uz besplatan Wi-Fi, možete kombinirati posao i uživanje u našim specijalitetima.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="usluga p-4 text-center">
+                <div class="usluga-ikona">
+                  <i class="ri-restaurant-line"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">Catering</h4>
+                <p class="text-white">Vrhunska usluga cateringa koja će vaš poseban događaj učiniti nezaboravnim.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="usluga p-4 text-center">
+                <div class="usluga-ikona">
+                  <i class="ri-team-fill"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">Ljubazno osoblje</h4>
+                <p class="text-white">Ponosimo se ljubaznim i profesionalnim osobljem koje će vaš posjet učiniti ugodnim.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </section>
+
+
+
+      <!-- Kuhari -->
+
+      <section id="kuhari">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 uvodni-tekst">
+              <h1>Upoznajte naše kuhare</h1>
+              <p>S ponosom predstavljamo naš talentirani tim kuhara koji su srce i duša našeg restorana.</p>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="tim-kuhara px-4 py-5 text-center sjena-hover border">
+                <img src="./materijali/slike/Probni_kuhar.png" alt="">
+                <div class="kuhar-sadrzaj">
+                  <h4 class="mb-0 mt-4" >Igor</h4>
+                  <p class="mb-0">Šef kuhinje</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="tim-kuhara px-4 py-5 text-center sjena-hover border">
+                <img src="./materijali/slike/Probni_kuhar2.png" alt="">
+                <div class="kuhar-sadrzaj">
+                  <h4 class="mb-0 mt-4" >Marko</h4>
+                  <p class="mb-0">Zamjenik šefa</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="tim-kuhara px-4 py-5 text-center sjena-hover border">
+                <img src="./materijali/slike/Probni_kuhar3.png" alt="">
+                <div class="kuhar-sadrzaj">
+                  <h4 class="mb-0 mt-4" >Lea</h4>
+                  <p class="mb-0">Glavna kuharica</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="tim-kuhara px-4 py-5 text-center sjena-hover border">
+                <img src="./materijali/slike/Probni_kuhar4.png" alt="">
+                <div class="kuhar-sadrzaj">
+                  <h4 class="mb-0 mt-4" >Luka</h4>
+                  <p class="mb-0">Pizza majstor</p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!--  Rezervacija -->
+
+      <section id="rezervacija">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 uvodni-tekst">
+              <h1>Rezerviraj svoj stol</h1>
+              <p>Kako bismo vam osigurali najbolji mogući doživljaj, preporučujemo vam da unaprijed rezervirate svoj stol.</p>
+            </div>
+          </div>
+          <form action="mailto:niflac@unin.hr?" method="post" class="row justify-content-center" >
+            <div class="col-lg-8">
+              <div class="row g-3">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Ime i prezime" >
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="E-mail adresa" >
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="date" class="form-control" placeholder="Datum" >
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="time" class="form-control" placeholder="Vrijeme" >
+                </div>
+                <div class="form-group col-md-12">
+                  <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Poruka i posebni zahtjevi" ></textarea>
+                </div>
+                <div class="form-group text-center col-md-12">
+                  <button type="submit" class="btn btn-brand">Pošalji rezervaciju</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Podnožje -->
+       <footer class="pozadina">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-4">
+                <img src="./materijali/slike/logo_bijelo.png" class="mb-4" alt="">
+                <p>Bilo da tražite mjesto za romantičnu večeru, poslovni ručak ili obiteljski obrok, Mljac! je idealan izbor.</p>
+                <div class="drustvene-mreze">
+                  <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                  <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.tiktok.com" target="_blank"><i class="ri-tiktok-line"></i></i></a>
+                </div>
+              </div>
+              <div class="col-lg-3 ms-auto">
+                <h6 class="text-white mb-4">KONTAKT</h6>
+                <p class="mb-1">Tel: 099199199</p>
+                <p class="mb-1">E-mail: mljac@mail.com</p>
+                <p class="mb-0">Adresa: Zagreb 42</p>
+              </div>
+              <div class="col-lg-3">
+                <h6 class="text-white mb-4">RADNO VRIJEME:</h6>
+                <p class="mb-1">Pon - Čet: 09h - 22h</p>
+                <p class="mb-1">Pet - Ned: 08  - 24h</p>
+                <p>Blagdani: 08 - 24h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row gy-3 justify-content-between">
+              <div class="col-auto">
+                <p class="mb-0">2024. - Sva prava pridržana</p>
+              </div>
+              <div class="col-auto">
+                <p class="mb-0">Nino Flac</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
